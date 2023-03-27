@@ -15,7 +15,7 @@ URL to access grade distribution data: https://analytics.fiu.edu/t/AIM/views/Gra
 
 - Filter data as needed
 - Download as CrossTab 
-- Run Python script
+- Run [Scripts](Scripts)
 - Import filtered data to FireBase or other SQL/database
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/113227693/227859515-4e3df585-8681-44be-8f1d-d3d4d4d1fff4.png">
 
