@@ -1,0 +1,28 @@
+.boldletters {
+    font-weight: bold;
+}
+
+.gpa-estimate-A {
+    font-weight: bold;
+    color: green;
+  }
+
+.gpa-estimate-B {
+    font-weight: bold;
+    color: yellowgreen;
+  }
+  
+.gpa-estimate-C {
+    font-weight: bold;
+    color: #efd400;
+  }  
+
+.gpa-estimate-D {
+    font-weight: bold;
+    color: #ff9500;
+  }  
+
+.gpa-estimate-F {
+    font-weight: bold;
+    color: #ff3824;
+  } 

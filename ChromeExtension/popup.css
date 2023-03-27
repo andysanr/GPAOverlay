@@ -1,0 +1,84 @@
+body {
+    width: 250px;
+    height: 225px;
+}
+
+body {
+    background-color: #081e3f;
+
+}
+
+h1, h2, h3, h5 {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+h3 img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+h4 img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+a:link,a:visited {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.button {
+    font-family: sans-serif;
+    transition-duration: 170ms;
+    display: flex;
+    padding: 7px 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #081e3f;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    border: solid 1.5px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #b6862c, #ffcc00);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #081e3f inset; 
+}
+
+.button:hover {
+    box-shadow: 2px 1000px 1px #ffcc00 inset;
+    color: black;
+}
+
+#git-icon {
+    transition-duration: 100ms;
+    filter: invert(1);
+}
+
+.button:hover #git-icon {
+    filter: invert(0);
+}
+
+.header-bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 85px;
+    z-index: -1;
+    border-bottom-left-radius: solid 1px #040d1c;
+    background-color: #06152c;
+}
